@@ -117,7 +117,7 @@
 			                        				class="form-phone form-control" id="form-phone"></textarea>
 			                        </div>
 			                        <button type="submit" class="btn">Get More Program Info!</button>
-			                        <button id="advisor" class="btn" onclick="window.fcWidget.open()">Chat With An Advisor</button>
+			                        <button type="submit" id="advisor" class="btn">Chat With An Advisor</button>
 			                        <!-- <div class="form-links">
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
@@ -766,7 +766,7 @@
 
         <!-- chat widget -->
         <script>
-			function window.fcWidget.open({
+			window.fcWidget.init({
 		    token: "53bdfbdd-4cf7-4a82-9e58-3f39127f20b6",
 		    host: "https://wchat.freshchat.com",
 		  });
