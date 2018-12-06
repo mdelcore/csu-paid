@@ -32,7 +32,7 @@
         <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
 
         <!-- Fresh Chat -->
-        <!-- <script src="https://wchat.freshchat.com/js/widget.js"></script> -->
+        <script src="https://wchat.freshchat.com/js/widget.js"></script>
 
     </head>
 
@@ -117,7 +117,7 @@
 			                        				class="form-phone form-control" id="form-phone"></textarea>
 			                        </div>
 			                        <button type="submit" class="btn">Get More Program Info!</button>
-			                        <button type="submit" class="btn">Chat With An Advisor</button>
+			                        <button type="submit" id="advisor" class="btn">Chat With An Advisor</button>
 			                        <!-- <div class="form-links">
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
@@ -258,7 +258,7 @@
 	            </div>
 	            <div class="row">
 	            	<div class="col-sm-5 more-features-box wow fadeInLeft">
-	                    <img src="./img/impact-3.jpg">
+	                    <img src="./img/impact-3.png">
 	                </div>
 	                <div class="col-sm-7 more-features-box wow fadeInUp">
 	                    <div class="more-features-box-text">
@@ -765,12 +765,13 @@
         <![endif]-->
 
         <!-- chat widget -->
-        <!-- <script>
-		  window.fcWidget.init({
+        <script>
+		  document.getElementById("advisor").onclick = window.fcWidget.init({
 		    token: "53bdfbdd-4cf7-4a82-9e58-3f39127f20b6",
-		    host: "https://wchat.freshchat.com"
+		    host: "https://wchat.freshchat.com",
+		    // document.getElementById("advisor").onclick = function() {window.fcWidget.open(),
 		  });
-		</script> -->
+		</script>
 
     </body>
 
