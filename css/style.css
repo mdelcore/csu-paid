@@ -260,6 +260,7 @@ ul.navbar-nav {
 
 .inner-bg {
     padding: 120px 0 170px 0;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
 }
 
 .top-content .text {
@@ -308,7 +309,7 @@ ul.navbar-nav {
 .form-bottom {
 	padding: 25px 25px 30px 25px;
 	background: #eee;
-	text-align: left;
+	text-align: center;
 }
 
 .form-bottom form textarea {
