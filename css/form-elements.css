@@ -43,10 +43,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 button.btn {
 	position: relative;
 	height: 50px;
-    margin: 0;
+    margin: 5px;
     padding: 0 20px;
     vertical-align: middle;
-    background: #D9782D;
+    background: #1E4D2B;
     border: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;

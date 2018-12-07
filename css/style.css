@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     color: #888;
-    line-height: 30px;
+    line-height: 25px;
     text-align: center;
 }
 
@@ -39,6 +39,10 @@ img { max-width: 100%; }
 }
 
 .blue { color: #019299; }
+
+#subheader {
+	color: #ffff;
+}
 
 ::-moz-selection { background: #D9782D; color: #fff; text-shadow: none; }
 ::selection { background: #D9782D; color: #fff; text-shadow: none; }
@@ -116,7 +120,7 @@ img { max-width: 100%; }
 	height: 50px;
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
-	background: #D9782D;
+	background: #1E4D2B;
 	font-size: 16px;
     font-weight: 300;
     line-height: 16px;
