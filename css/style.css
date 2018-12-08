@@ -33,6 +33,10 @@ h3 {
 
 img { max-width: 100%; }
 
+span.highlight {
+	color:  #1E4D2B;
+}
+
 .medium-paragraph {
 	font-size: 18px;
 	line-height: 32px;
